@@ -1,0 +1,118 @@
+/** Root **/
+
+:root {
+  --main-btn-color: #3b4247;
+  --scrollbar-background: #e0e5eb;
+  --scrollbar-thumb: #7f8081;
+  --footer-background: #444e57;
+  --light-text-color: #b2becd;
+  --chapter-card-background: #e2eaf1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/** Root-end **/
+
+/** Header **/
+
+header {
+  height: 5em;
+  background-color: black;
+}
+
+header > nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 1.3em;
+}
+
+.menu > a {
+  color: white;
+}
+
+/** Header-end **/
+
+/** Footer **/
+
+footer {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--footer-background);
+  color: var(--light-text-color);
+  font-size: 1rem;
+}
+
+/** Footer-end **/
+
+/** Some Webkits thingy **/
+
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-background);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border: 2px solid var(--scrollbar-background);
+}
+
+/** Some Webkits thingy-end **/
+
+/** Global **/
+
+.page {
+  min-height: calc(100vh - 5em - 3em);
+}
+
+.container {
+  padding: 0 2em;
+}
+
+/** Global-end **/
+
+/** Media Query **/
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+/** Media Query-end **/
