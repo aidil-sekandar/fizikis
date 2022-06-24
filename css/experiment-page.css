@@ -1,0 +1,29 @@
+.experiment-guide {
+  margin: 1em 0 1.3em 0;
+  text-align: left;
+}
+
+h3 {
+  margin-top: 0.9em;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+img {
+  margin: 1em 0;
+  width: 50em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.img-long {
+  width: 30em;
+}
+
+@media (max-width: 50em) {
+  img {
+    width: 100%;
+  }
+}
