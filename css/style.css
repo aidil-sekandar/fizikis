@@ -1,5 +1,7 @@
 /** Root **/
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
 :root {
   --main-btn-color: #3b4247;
   --scrollbar-background: #e0e5eb;
@@ -49,16 +51,26 @@ header > nav {
   color: white;
   font-size: 1.6rem;
   font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.title:hover {
+  transform: scale(1.1);
 }
 
 .menu {
   display: flex;
   font-size: 1.2rem;
-  gap: 1.3em;
+  gap: 1.7em;
 }
 
 .menu > a {
   color: white;
+  transition: 0.2s ease;
+}
+
+.menu > a:hover {
+  transform: scale(1.2);
 }
 
 /** Header-end **/
@@ -79,6 +91,13 @@ footer > p {
 }
 
 /** Footer-end **/
+
+/** About  **/
+
+.about {
+  margin: 1em 0 1.3em 0;
+  text-align: center;
+}
 
 /** Some Webkits thingy **/
 
