@@ -1,0 +1,14 @@
+.radas {
+  padding-top: 1.5em;
+  text-align: left;
+}
+
+.radas-area {
+  margin: 1em 0 1.3em 0;
+  text-align: left;
+}
+
+.radas-area > h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
