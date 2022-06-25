@@ -4,7 +4,7 @@
 }
 
 h3 {
-  margin-top: 0.9em;
+  margin-top: 1.3em;
 }
 
 p {
@@ -20,6 +20,28 @@ img {
 
 .img-long {
   width: 30em;
+}
+
+.next-experiment {
+  display: flex;
+  justify-content: center;
+}
+
+.next-experiment > a {
+  margin: 2em 0 1em 0;
+  display: inline-block;
+  text-align: center;
+  background-color: var(--main-btn-color);
+  color: white;
+  padding: 1em 1.3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  transition: all 0.3s ease;
+}
+
+.next-experiment > a:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
 }
 
 @media (max-width: 50em) {
