@@ -25,6 +25,7 @@ img {
 .next-experiment {
   display: flex;
   justify-content: center;
+  gap: 1em;
 }
 
 .next-experiment > a {

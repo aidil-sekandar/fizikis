@@ -110,6 +110,11 @@ body::-webkit-scrollbar-thumb {
 /** Global-end **/
 
 /** Media Query **/
+@media (max-width: 500px) {
+  .container {
+    padding: 1em;
+  }
+}
 
 @media (min-width: 1400px) {
   .container {
